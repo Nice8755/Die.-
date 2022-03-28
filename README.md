@@ -1,4 +1,4 @@
-_G.auto = false
+_G.auto = true
 while _G.auto do wait()
 for i,v in pairs(game:GetService("Workspace").Live:GetChildren()) do
     if v.ClassName == "Model" then
